@@ -1,0 +1,661 @@
+@media (max-width: 1380px) {
+    .container {
+        max-width: 1024px;
+        padding: 0 50px;
+        margin: 0 auto;
+    }
+
+    /*header*/
+    .header {
+        padding: 32px 0 26px 0;
+    }
+
+    .header__content {
+        flex-wrap: wrap;
+    }
+
+    .header__logo {
+        width: 188px;
+        height: 43px;
+        margin-bottom: 26px;
+    }
+
+    .header__list {
+        order: 2;
+        transform: translate(-0.5%, -4%);
+        gap: 88.5px
+    }
+
+    .header__search {
+        transform: translate(40%, 3%);
+    }
+
+    /*hero*/
+    .hero {
+        min-height: 621px;
+    }
+
+    .hero__container {
+        padding: 101px 0;
+        width: 75%;
+    }
+
+    .hero__text {
+        margin-bottom: 157px;
+    }
+
+    .hero__link {
+        padding: 20px 32px;
+    }
+
+    /*we*/
+    .we__content {
+        width: 100%;
+    }
+
+    .we__name {
+        margin-bottom: 19px;
+    }
+
+    /*gallery*/
+    .gallery {
+        height: 642px;
+        background-image: url('../img/gallery-1024.jpg');
+    }
+
+    .gallery__content {
+        margin-right: 0;
+    }
+
+    .gallery__name {
+        margin-bottom: 27px;
+    }
+
+    .gallery__flex {
+        flex-direction: column;
+        gap: 25px;
+        align-items: flex-start;
+    }
+
+    /*catalog*/
+    .catalog {
+        margin-top: 87px;
+    }
+
+    .catalog__text {
+        width: 100%;
+    }
+
+    .catalog__item {
+        gap: 28px;
+        flex-direction: column;
+    }
+
+    .catalog__img {
+        width: 100%;
+    }
+
+    .catalog__artist {
+        width: 100%;
+    }
+
+    /*events*/
+    .events__list {
+        gap: 27px;
+        margin-right: 0;
+    }
+
+    .events__bloсk {
+        min-height: 483px;
+        padding: 0 34px 45px 34px;
+    }
+
+    .events__dates {
+        margin-top: 18px;
+        margin-bottom: 6px;
+        text-align: end;
+        letter-spacing: -0.25px;
+        line-height: 16px;
+    }
+
+    .events__announcement {
+        width: 110%;
+        margin-bottom: 4px;
+    }
+
+    /*projects*/
+    .projects {
+        margin-top: 87px;
+    }
+
+    .projects__content {
+        margin-left: 0;
+    }
+
+    .projects__text {
+        width: 100%;
+        margin-bottom: 19px;
+    }
+
+    .projects__content2 {
+        margin-left: 0;
+    }
+
+    .projects__partners {
+        margin-bottom: 17px;
+    }
+
+    .projects__list {
+        gap: 30px;
+    }
+
+    /*contacts*/
+    .contacts {
+        padding-top: 41px;
+        padding-bottom: 40px;
+    }
+
+    .contacts__content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 31px;
+    }
+
+    .contacts__text {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .contacts__form {
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+    .contacts__input {
+        width: 271px;
+        height: 50px;
+    }
+
+    .contacts__btn {
+        padding: 0 42px;
+    }
+
+    /*footer*/
+    .footer {
+        padding-top: 39px;
+    }
+
+    .footer__list {
+        margin-right: 0;
+    }
+
+    .footer__icon svg {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    /*hero*/
+    .hero {
+        background-image: url('../img/hero-1024.jpg');
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+
+    /*header*/
+
+    .header {
+        padding: 30px 0 17px 0;
+    }
+
+    .header__list {
+        gap: 36px;
+        transform: translate(-0.5%, 3%);
+        overflow-x: scroll;
+        max-width: 710px;
+        padding-bottom: 10px;
+    }
+
+    /*hero*/
+    .hero__container {
+        padding: 86px 0;
+        width: 80%;
+    }
+
+    /*we*/
+    .we__content {
+        margin: 85px 0 71px 0;
+    }
+
+    /*gallery*/
+    .gallery {
+        height: 567px;
+    }
+
+    .gallery__list {
+        gap: 34px;
+    }
+
+    /*catalog*/
+    .catalog__artist {
+        gap: 8px;
+    }
+
+    .artist__name {
+        margin-top: 6px;
+        margin-bottom: 4px;
+    }
+
+    .artist__text {
+        font-size: 16px;
+    }
+
+    /*events*/
+    .events {
+        margin-top: 81px;
+    }
+
+    .events__name {
+        margin-bottom: 22px;
+    }
+
+    .events__list {
+        flex-direction: column;
+        gap: 33px;
+    }
+
+    .events__item {
+        max-width: 668px;
+    }
+
+    .events__bloсk {
+        min-height: 328px;
+        max-width: 668px;
+        padding: 0 34px 44px 34px;
+    }
+
+    .events__dates {
+        margin-top: 15px;
+    }
+
+    .events__announcement {
+        width: 81%;
+        margin-bottom: 15px;
+    }
+
+    /*projects*/
+    .projects {
+        margin-top: 86px;
+    }
+
+    .projects__text {
+        margin-bottom: 27px;
+    }
+
+    .projects__partners {
+        margin-bottom: 29px;
+    }
+
+    .projects__list {
+        gap: 32px;
+    }
+
+    /*contacts*/
+    .contacts__text {
+        margin-top: 12px
+    }
+
+    .contacts__input {
+        width: 324px;
+        margin-bottom: -4px;
+    }
+
+    .contacts__btn {
+        padding: 0 28px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /*hero*/
+    .hero {
+        background-image: url('../img/hero-768.png');
+    }
+
+    .hero__title {
+        font-size: 9.39vw;
+    }
+
+    /*gallery*/
+    .gallery {
+        background-image: url('../img/gallery-768.jpg');
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 320px;
+        padding: 0 15px;
+    }
+
+    .name {
+        font-size: 28px;
+    }
+
+    .text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    /*header*/
+    .header {
+        padding: 16px 0 2px 0;
+    }
+
+    .header__list {
+        gap: 16.5px;
+        transform: translate(-1%, -1.8%);
+        overflow-x: scroll;
+        max-width: 290px;
+    }
+
+    .header__logo {
+        width: 96px;
+        height: 22px;
+        margin-bottom: 10px;
+    }
+
+    .header__link {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .header__search {
+        transform: translate(54%, -10%);
+    }
+
+    .header__search svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    /*hero*/
+    .hero {
+        min-height: 310px;
+    }
+
+    .hero__container {
+        padding: 50px 0;
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .hero__title {
+        font-size: 32px;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .hero__text {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 46px;
+    }
+
+    .hero__link {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    /*we*/
+    .we__content {
+        margin: 54px 0 41px 0;
+    }
+
+    .we__name {
+        margin-bottom: 13px;
+    }
+
+    /*gallery*/
+    .gallery {
+        background-image: url('../img/gallery-320.jpg');
+        height: 1206px;
+        padding: 52px 0 10px 0;
+    }
+
+    .gallery__name {
+        margin-bottom: 22px;
+    }
+
+    .gallery__list {
+        flex-direction: column;
+    }
+
+    .gallery__list {
+        gap: 26px;
+    }
+
+    /*catalog*/
+    .catalog {
+        margin-top: 53px;
+    }
+
+    .catalog__name {
+        margin-bottom: 15px;
+    }
+
+    .catalog__text {
+        margin-bottom: 30px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .catalog__list {
+        gap: 31px;
+    }
+
+    .catalog__item {
+        gap: 17px;
+    }
+
+    .catalog__artist {
+        gap: 12px;
+    }
+
+    .artist__name {
+        margin-top: 2px;
+        margin-bottom: 0;
+        width: 99%;
+        line-height: 32px;
+    }
+
+    .artist__text {
+        width: 99%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    /*events*/
+    .events {
+        margin-top: 54px;
+    }
+
+    .events__name {
+        margin-bottom: 12px;
+    }
+
+    .events__list {
+        gap: 20px;
+    }
+
+    .events__item {
+        max-width: 290px;
+    }
+
+    .events__bloсk {
+        min-height: 487px;
+        max-width: 290px;
+        padding: 0 18px 49px 22px;
+    }
+
+    .events__dates {
+        margin-top: 21px;
+        margin-bottom: 12px;
+    }
+
+    .events__announcement {
+        width: 96%;
+        margin-bottom: 5px;
+    }
+
+    .events__text {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .events__link {
+        margin-left: 3px;
+    }
+
+    /*projects*/
+    .projects {
+        margin-top: 54px;
+    }
+
+    .projects__list {
+        flex-direction: column;
+        gap: 11px;
+    }
+
+    .projects__name {
+        margin-bottom: 16px;
+
+    }
+
+    .projects__text {
+        font-size: 16px;
+        line-height: 32px;
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    .projects__partners {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .projects__item {
+        padding: 28px 64px;
+        align-self: center;
+    }
+
+    .projects__img {
+        width: 160px;
+        height: 40px;
+    }
+
+    /*contacts*/
+    .contacts {
+        border-color: transparent;
+        margin-top: 44px;
+        padding-top: 0;
+        padding-bottom: 45px;
+    }
+
+    .contacts__showroom {
+        font-size: 18px;
+    }
+
+    .contacts__text {
+        margin-top: 1px;
+    }
+
+    .contacts__content {
+        gap: 23px;
+    }
+
+    .contacts__span {
+        display: none;
+    }
+
+    .contacts__form {
+        gap: 25px;
+    }
+
+    .contacts__input {
+        width: 290px;
+        height: 40px;
+        padding: 0px 22px;
+    }
+
+    .contacts__btn {
+        height: 40px;
+        font-size: 12px;
+        padding: 0 32px;
+    }
+
+    .contacts__end {
+        margin-top: -2px;
+    }
+
+    .contacts__end h4 {
+        font-weight: 400;
+    }
+
+    .contacts__links {
+        margin-top: 7px;
+    }
+
+    .contacts__icon svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    /*footer*/
+    .footer {
+        height: 132px;
+        padding-top: 20px;
+    }
+
+    .footer__container {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 17px;
+    }
+
+    .footer__logo {
+        width: 97px;
+        height: 22px;
+    }
+
+    .footer__icon svg {
+        width: 50px;
+        height: 50px;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+
+    /*hero*/
+    .hero {
+        background-image: url('../img/hero-320.jpg');
+    }
+
+
+}
